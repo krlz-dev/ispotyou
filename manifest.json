@@ -1,0 +1,18 @@
+{
+  "name": "I Spot You",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./img/logo.png",
+    "48": "./img/logo.png",
+    "128": "./img/logo.png"
+  },
+  "version": "1.0.0",
+  "description": "dead simple spotify playlist migration to youtube",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "scripting"
+  ]
+}
